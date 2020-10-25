@@ -1,2 +1,2 @@
 # profile-template
-A base template for a profile page. 
+It's going to be a great template, it just isn't yet. 
