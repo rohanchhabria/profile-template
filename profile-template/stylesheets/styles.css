@@ -1,0 +1,185 @@
+/*Global Layout Set-up*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #222;
+}
+
+/*Link Styles*/
+a {
+    text-decoration: none;
+    color: #0499ff;
+}
+
+a:hover {
+    color: #6633ff;
+}
+
+/*Section Styles*/
+.main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.tag {
+    background-color: #e2e2e2;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+}
+
+.location {
+    background-color: #222;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.card-title {
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+ul.skills {
+    padding: 0; 
+    text-align: center;
+}
+
+.skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #ff9904;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+    background: #0399ff;
+}
+
+.social {
+    display: inline-block;
+    text-indent: -999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    
+    transition: all .25s;
+}
+
+.twitter {
+    background-image: url(../images/logos/twitter-logo.svg);
+}
+
+.linkedin {
+    background-image: url(../images/logos/linkedin-logo.svg);
+}
+
+.github {
+    background-image: url(../images/logos/github-logo.svg);
+}
+
+header {
+    line-height: 1.6;
+    background-image: url("../images/rainy-thomas.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+ header .profile-image {
+    margin-top: 250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px white;
+    transition: all .5s;
+}
+
+header .profile-image:hover {
+    transform: scale(1.2) rotate(540deg);
+}
+
+main {
+    padding-top: 50px;
+}
+
+main p {
+    line-height: 1.6em;
+}
+
+footer {
+    font-size: 1.3em;
+    max-width: 120px;
+    margin: 40px auto;
+}
+
+footer .copyright {
+    top: -8px;
+    font-size: 0.7em;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+
